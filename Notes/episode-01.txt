@@ -1,0 +1,16 @@
+React comes with the philosophy of manupilating DOM nodes with JavaScript
+
+`React.createElement` creates a JavaScript object
+
+`ReactDOM.createRoot` creates the root element
+
+`render` takes the object, create the h1 tag that browser understands and put it inside the root element
+
+JSX will make our life easy when we have to create tags
+
+
+
+To Check:
+---------
+What is CDN? Why do we need CDN?
+What is crossorigin?

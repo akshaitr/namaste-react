@@ -1,0 +1,84 @@
+package.json is configuration for npm
+
+packages are also know as dependencies
+
+npm will take care of the dependency versions in the package.json file
+
+A bundler packages your app properly so that it can be shipped to production
+
+npm -D
+Dev dependencies: generally requires in development phase
+Normal dependencies: used in production also
+
+caret and tilde signs in package.json (MAJOR.MINOR.PATCH)
+- ~ patch version upgrades
+- ^ minor version upgrades
+- * latest version (eg: *, 1.*, 1.2.*)
+
+package-lock.json keeps a track of exact version that is being installed
+
+node_modules contains all the code that we fetch from npm,
+it is a collection of dependencies
+
+Transitive dependencies -> our project has dependency with parcel, parcel has its own dependencies
+and these dependencies have their own dependencies and so on
+
+Should I put node_modules to my git repository?
+No, we can recreate the node_modules using package.json files
+
+
+
+
+
+npm -> installing a package
+npx -> execute a package
+
+
+CDN links are not a good way to bring react to your projects. Why?
+
+- Fetching from CDN is a costly operation (network call)
+- Version updates need to be done by chanding the link
+
+We need react as a normal dependency, not as a dev dependency
+
+
+
+
+
+remove "main: App.js" from package.json when using parcel for prod build
+
+What is dist? Build files are put into the dist folder
+
+
+
+
+
+Assignment:
+-----------
+● - What is `NPM`?
+● - What is `Parcel/Webpack`? Why do we need it?
+● - What is `.parcel-cache`
+● - What is `npx` ?
+● - What is difference between `dependencies` vs `devDependencies`
+● - What is Tree Shaking?
+● - What is Hot Module Replacement?
+● - List down your favourite 5 superpowers of Parcel and describe any 3 of them in your
+own words.
+● - What is `.gitignore`? What should we add and not add into it?
+● - What is the difference between `package.json` and `package-lock.json`
+● - Why should I not modify `package-lock.json`?
+● - What is `node_modules` ? Is it a good idea to push that on git?
+● - What is the `dist` folder?
+● - What is `browserlists`
+Read about dif bundlers: vite, webpack, parcel
+● Read about: ^ - caret and ~ - tilda
+● Read about Script types in html
+
+
+
+
+
+References:
+-----------
+Creating a React App… From Scratch.
+https://medium.com/@JedaiSaboteur/creating-a-react-app-from-scratch-f3c693b84658

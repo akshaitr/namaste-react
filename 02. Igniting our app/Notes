@@ -8,11 +8,12 @@
 
 - A bundler is a tool that bundles our app, packages our app so that it can be shipped to production.
 - Examples of Bundlers:
+
   - Webpack
   - Vite
   - Parcel
 
-📢 NOTE: In create-react-app, the bundler used is webpack.
+    📢 NOTE: In create-react-app, the bundler used is webpack.
 
 3.  What is a package manager?
 
@@ -32,7 +33,7 @@ Dependencies are the crucial packages required for your application to function 
 environment. DevDependencies are tools and utilities that aid in the development process but are not
 needed in production.
 
-📢 NOTE: Transitive dependencies
+    📢 NOTE: Transitive dependencies
 
 6.  Why should we not modify package-lock.json?
 

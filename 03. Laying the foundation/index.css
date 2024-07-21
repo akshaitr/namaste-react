@@ -1,0 +1,14 @@
+.container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.inputField {
+  width: 80%;
+  margin-right: auto;
+  border-radius: 10px;
+}
+
+.userIcon {
+  width: 50px;
+}

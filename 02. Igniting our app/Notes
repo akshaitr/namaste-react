@@ -1,0 +1,60 @@
+1.  To make our app production ready what should we do?
+
+- Minify our file (Remove console logs, bundle things up)
+  Minify —> Optimization —>Clean console —> Bundle
+- Need a server to run things
+
+2.  What are bundlers?
+
+- A bundler is a tool that bundles our app, packages our app so that it can be shipped to production.
+- Examples of Bundlers:
+  - Webpack
+  - Vite
+  - Parcel
+
+📢 NOTE: In create-react-app, the bundler used is webpack.
+
+3.  What is a package manager?
+
+- Bundlers are packages. If we want to use a package in our code, we have to use a package manager.
+- Examples of package managers:
+  - npm
+  - yarn
+
+4.  What is difference between package.json and package.lock.json?
+
+In package. json we have information about generic version of installed packages whereas in
+package.lock.json we have information about the specific or exact version of installed packages.
+
+5.  What is difference between dependencies and devDependencies?
+
+Dependencies are the crucial packages required for your application to function in a production
+environment. DevDependencies are tools and utilities that aid in the development process but are not
+needed in production.
+
+📢 NOTE: Transitive dependencies
+
+6.  Why should we not modify package-lock.json?
+
+package-lock.json file maintains the exact version of the packages in this file to make sure everyone
+has the same version of packages installed on their computers so that it works perfectly fine on all
+computers.
+
+Treat package-lock.json as a valuable blueprint, not a playground for manual changes.
+
+7.  Parcel features at a glance:
+
+- Hot Module Replacement(HMR) using a File Watcher Algorithm(written in C++)
+- Bundling
+- Minify Code
+- Cleaning our code
+- Dev and production build
+- Super fast build algorithm
+- Image Optimization
+- Caching while development
+- Compression
+- Compatible with older browser versions
+- Https on dev
+- Consistency Hashing Algorithm
+- Tree Shaking
+- Zero config

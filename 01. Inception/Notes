@@ -1,19 +1,17 @@
-01.  Why React is known as ‘React’?
+1.  Why React is known as ‘React’?
 
 The name ‘React’ was chosen because the library was designed to allow developers to react
 to changes in state and data within an application, and to update the user interface in a
 declarative and efficient manner.
 
-
-02. Library vs Framework
+2.  Library vs Framework
 
 A key difference between the two is Inversion of control. When using a library, the control
 remains with the developer who tells the application when to call library functions. When
 using a framework, the control is reversed, which means that the framework tells the developer
 where code needs to be provided and calls it as it requires.
 
-
-03. What is CDN? Why do we use it?
+3.  What is CDN? Why do we use it?
 
 React is integrated in the projects using package managers like npm or yarn.However, there are
 some cases where using Content Delivery Network (CDN) links can be a advantage, especially for
@@ -24,10 +22,11 @@ without the need for a package manager. It’s mostly useful for small projects,
 quick prototyping. However, for production-grade applications, consider using package managers
 for better dependency management and version control.
 
-
-04. What is crossorigin?
+4.  What is crossorigin?
 
 The crossorigin attribute in the script tag enables CrossOrigin Resource Sharing (CORS) for
 loading external JavaScript files from different origin than the hosting web page. This allows
 the script to access resources from the server hosting the script, such as making HTTP requests
 or accessing data.
+
+📢 NOTE: React will overwrite everything inside "root" and replaces with whatever given inside render.

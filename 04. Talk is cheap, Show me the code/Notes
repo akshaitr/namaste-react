@@ -1,0 +1,29 @@
+1. Config driven UI
+
+It is a user Interface that is built and configured using a declaration configuration
+file or data structure, rather than being hardcoded. Config is the data coming from the
+api which keeps on changing according to different factors like user, location, etc.
+
+2. Each item in the list must be uniquely identified. Why?
+
+When we have components at same level and if a new component comes on the first without ID,
+DOM is going to re-render all the components again. As DOM can’t identify where to place it.
+But if we give each of them a unique ID then react knows where to put that component according
+to the ID. It is a good optimization and performance improvement technique.
+
+    📢 NOTE: Never use index as keys in map. It is not recommended.
+
+3. Is JSX mandatory for React?
+
+JSX is not a requirement for using React. Using React without JSX is especially convenient
+when you don’t want to set up compilation in your build environment.
+
+Each JSX element is just syntactic sugar for calling React.createElement(component, props, ...children).
+So, anything you can do with JSX can also be done with just plain JavaScript.
+
+4. Is ES6 mandatory for React?
+
+ES6 is not mandatory for React but is highly recommendable. The latest projects created on React
+rely a lot on ES6. React uses ES6, and you should be familiar with some of the new features like:
+Classes, Arrow Functions, Variables(let, const). ES6 stands for ECMAScript 6. ECMAScript was created
+to standardize JavaScript, and ES6 is the 6th version of ECMAScript, it was published in 2015.

@@ -2,7 +2,7 @@
 
 It is a user Interface that is built and configured using a declaration configuration
 file or data structure, rather than being hardcoded. Config is the data coming from the
-api which keeps on changing according to different factors like user, location, etc.
+API which keeps on changing according to different factors like user, location, etc.
 
 2. Each item in the list must be uniquely identified. Why?
 

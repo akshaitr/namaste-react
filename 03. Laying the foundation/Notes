@@ -8,22 +8,22 @@
 2.  Is JSX a valid JavaScript?
 
 JSX is not a valid Javascript syntax as it’s not pure HTML or pure JavaScript for a browser to understand.
-Javaccript does not have built-in JSX. The JS engine understands ECMAScript or ES6+ code, not JSX.
+Javascript does not have built-in JSX. The JS engine understands ECMAScript or ES6+ code, not JSX.
 
 3.  If the browser can’t understand JSX how is it still working?
 
-This is because of Pcarel. Before the code gets to JS Engine it is sent to Parcel and transpiled there.
+This is because of Parcel. Before the code gets to JS Engine it is sent to Parcel and transpiled there.
 Then after transpilation, the browser gets the code that it can understand.
 
     📢 NOTE: Transpilation ⇒ Converting the code in such a format that the browsers can understand.
 
 Parcel is like a manager who gives the responsibility of transpilation to a package called Babel.
-Babel is a compiler/transpiler of JavaScript that is already present inside ‘node-modules’. It takes JSX and
+Babel is a compiler/transpiler of JavaScript that is already present inside "node_modules". It takes JSX and
 converts it into the code that browsers understand, as soon as we write it and save the file.
 
     📢 NOTE: JSX(transpiled by Babel) ⇒ React.createElement ⇒ ReactElement ⇒ JS Object ⇒ HTML Element(render)
 
-4. What is a React Functional Components?
+4. What is a React Functional Component?
 
 It is just a JavaScript Function that returns some JSX or a react element.
 

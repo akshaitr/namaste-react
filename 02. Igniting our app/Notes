@@ -1,7 +1,7 @@
 1.  To make our app production ready what should we do?
 
 - Minify our file (Remove console logs, bundle things up)
-  Minify —> Optimization —>Clean console —> Bundle
+  Minify —> Optimization —> Clean console —> Bundle
 - Need a server to run things
 
 2.  What are bundlers?
@@ -22,10 +22,10 @@
   - npm
   - yarn
 
-4.  What is difference between package.json and package.lock.json?
+4.  What is difference between package.json and package-lock.json?
 
-In package. json we have information about generic version of installed packages whereas in
-package.lock.json we have information about the specific or exact version of installed packages.
+In package.json we have information about generic version of installed packages whereas in
+package-lock.json we have information about the specific or exact version of installed packages.
 
 5.  What is difference between dependencies and devDependencies?
 
@@ -41,7 +41,7 @@ package-lock.json file maintains the exact version of the packages in this file 
 has the same version of packages installed on their computers so that it works perfectly fine on all
 computers.
 
-Treat package-lock.json as a valuable blueprint, not a playground for manual changes.
+    📢 NOTE: Treat package-lock.json as a valuable blueprint, not a playground for manual changes.
 
 7.  Parcel features at a glance:
 

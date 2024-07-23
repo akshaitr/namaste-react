@@ -1,6 +1,6 @@
-1.  Why React is known as ‘React’?
+1.  Why React is known as "React"?
 
-The name ‘React’ was chosen because the library was designed to allow developers to react
+The name "React" was chosen because the library was designed to allow developers to react
 to changes in state and data within an application, and to update the user interface in a
 declarative and efficient manner.
 
@@ -13,7 +13,7 @@ where code needs to be provided and calls it as it requires.
 
 3.  What is CDN? Why do we use it?
 
-React is integrated in the projects using package managers like npm or yarn.However, there are
+React is integrated in the projects using package managers like npm or yarn. However, there are
 some cases where using Content Delivery Network (CDN) links can be a advantage, especially for
 quick prototypes, or when integrating React into existing projects.
 

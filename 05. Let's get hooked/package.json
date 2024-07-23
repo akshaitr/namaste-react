@@ -1,0 +1,31 @@
+{
+  "name": "namaste-react",
+  "version": "1.0.0",
+  "description": "Notes for namaste-react",
+  "scripts": {
+    "test": "jest",
+    "start": "parcel index.html",
+    "build": "parcel build index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshaitr/namaste-react.git"
+  },
+  "author": "Akshai",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshaitr/namaste-react/issues"
+  },
+  "homepage": "https://github.com/akshaitr/namaste-react#readme",
+  "devDependencies": {
+    "parcel": "^2.12.0",
+    "process": "^0.11.10"
+  },
+  "dependencies": {
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1"
+  },
+  "browserslist": [
+    "last 3 versions"
+  ]
+}
